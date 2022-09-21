@@ -195,7 +195,7 @@ class _ResultWindowState extends State<ResultWindow> {
         TextButton(onPressed: (){
           if(!mounted) return;
           Navigator.of(context).pop();
-        }, child: Text("Close"))
+        }, child: const Text("Close"))
       ],
       content: Container(
         padding: EdgeInsets.all(24.0),
